@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="">fr
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quotations-app</title>
+    <script src="./script.js" type="module" defer></script>
 </head>
 <body>
 
@@ -12,23 +13,17 @@
     <h3 id="number-of-citations">0</h3>
     <br>
     <hr>
-    <form action="" id="formulaire">
+    <form id="formulaire">
 
         <!-- citation -->
-         <div class="quote-form-content">
-             <label for="quote">Rentre ici une citation que tu aimes :</label>
-             <input id="quote-input" name="quote" type="text"></form>
-         </div>
+        <label for="quote">Rentre ici une citation que tu aimes :</label>
+        <input id="quote-input" name="quote" type="text">
 
         <!-- auteur -->
-         <div class="author-form-content">
-             <label for="author">N'oubli pas de cité l'auteur :</label>
-             <input id="author-input" name="author" type="text"></input>
-         </div>
+        <label for="author">N'oubli pas de cité l'auteur :</label>
+        <input id="author-input" name="author" type="text">
 
-         <div class="btn-content">
-             <button type="submit">Enregistrer</button>
-         </div>
+        <button type="submit">Enregistrer</button>
 
     </form>
 
