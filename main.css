@@ -1,0 +1,70 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: clamp(18px, 6vw, 42px);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: clamp(12px, 4vw, 32px);
+
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 190px;
+    height: 40px;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+    }
+}
+
+.quote_list {
+    width: 100%;
+}
+
+.quote {
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.author {
+    font-size: .8rem;
+    text-align: center;
+}
